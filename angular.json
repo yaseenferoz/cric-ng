@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cric-ng": {
+    "school": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cric-ng",
+            "outputPath": "dist/school",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cric-ng:build:production"
+              "browserTarget": "school:build:production"
             },
             "development": {
-              "browserTarget": "cric-ng:build:development"
+              "browserTarget": "school:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cric-ng:build"
+            "browserTarget": "school:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "e15315cd-c154-4fd9-acc2-e48a944dbd4c"
+    "analytics": "6aff8b2f-f59f-40db-970f-4164e2ba2475"
   }
 }
