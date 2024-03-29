@@ -16,7 +16,6 @@ MIT
 @angular/router
 MIT
 
-ngx-toastr
 MIT
 The MIT License (MIT)
 
